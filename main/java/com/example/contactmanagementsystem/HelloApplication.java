@@ -129,12 +129,7 @@ public class HelloApplication extends Application {
                                 alert.setHeaderText("Contact Found!");
                                 alert.setContentText(item);
                                 alert.showAndWait();
-                            } else {
-                                Alert alert = new Alert(Alert.AlertType.INFORMATION);
-                                alert.setHeaderText("Error");
-                                alert.setContentText("Contact " + searchNameTextField.getText() + " doesn't exist.");
-                                alert.showAndWait();
-                            }
+                            } 
                         }
                     }
                 });
